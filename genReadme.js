@@ -1,5 +1,6 @@
 function genReadme(response) {
     return `# ${response.title}
+https://github.com/${response.username}/${response.title}
 ## Description
 ${response.description}
 ## Table of Contents
@@ -8,7 +9,7 @@ ${response.description}
 - [Credits](#credits)
 - [License](#license)
 - [Contributing](#contributing)
-- [Test Instructions](#tests)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -18,16 +19,16 @@ ${response.usage}
 ## Credits
 ${response.credits}
 ## License
-${response.license}
+This project is protected by the ${response.license} license.
 ## Contributing
 ${response.contributing}
 ## Tests
 ${response.tests}
 
 ## Questions?
-${response.username}
+https://github.com/${response.username}/
 
-${response.email}
+If you have any questions, contact me on GitHub or at ${response.email}
 `
 }
 

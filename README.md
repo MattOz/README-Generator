@@ -1,4 +1,5 @@
-# Title
+# Test
+https://github.com/MattOz/Test
 ## Description
 test
 ## Table of Contents
@@ -7,7 +8,7 @@ test
 - [Credits](#credits)
 - [License](#license)
 - [Contributing](#contributing)
-- [Test Instructions](#tests)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -17,13 +18,13 @@ test
 ## Credits
 test
 ## License
-MIT
+This project is protected by the MIT license.
 ## Contributing
 test
 ## Tests
 test
 
 ## Questions?
-test
+MattOz
 
-test
+email@email.com
