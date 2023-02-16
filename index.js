@@ -32,7 +32,7 @@ inquirer
     {
       type: 'list',
       message: 'Select license',
-      choices: ["MIT","APACHE 2.0", "GPL 3.0", "BSD 3"],
+      choices: ["MIT","APACHE 2.0","GPL 3.0","BSD 3"],
       name: 'license',
     },
     {
@@ -58,6 +58,6 @@ inquirer
   ])
   .then((response) => {
     fs.writeFile(`README.md`,genReadme(response) , (err) =>
-    err ? console.error(err) : console.log('Commit logged!'))
+    err ? console.error(err) : console.log('README Created!'))
   }
   );
