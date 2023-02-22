@@ -57,7 +57,7 @@ inquirer
     },
   ])
   .then((response) => {
-    fs.writeFile(`README.md`,genReadme(response) , (err) =>
+    fs.writeFile(`SAMPLE-README.md`,genReadme(response) , (err) =>
     err ? console.error(err) : console.log('README Created!'))
   }
   );
